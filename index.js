@@ -17,7 +17,7 @@ mongoose.connect('mongodb+srv://meghana123:<meghana123>@cluster0.nngtsg1.mongodb
 // Middleware
 app.use(cors());
 app.use(bodyParser.json());
-app.use(express.static(path.join(__dirname, 'public'))); // Serve static frontend files
+app.use(express.static(path.join(__dirname))); // Serve static frontend files
 
 // Models
 const userSchema = new mongoose.Schema({
