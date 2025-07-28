@@ -30,7 +30,7 @@ A full-stack web application that helps underprivileged students discover and ap
 - Node.js and npm installed
 - MongoDB Atlas account with a cluster created
 
-## Contact
+## 📧 Contact
 - Meghana Arthimalla
 - Email:arthimalla.meghana@gmail.com
   
