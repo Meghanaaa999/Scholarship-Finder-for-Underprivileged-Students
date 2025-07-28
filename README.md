@@ -2,7 +2,7 @@
 
 A full-stack web application that helps underprivileged students discover and apply for scholarships based on category, income, state, and gender. Admins can manage scholarships, users, and view feedback from students.
 
-## 🚀 Features
+## 📁 Features
 
 ### 👨‍🎓 Student Features
 - 🔐 User registration & login
