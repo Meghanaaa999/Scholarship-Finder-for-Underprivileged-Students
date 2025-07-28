@@ -22,6 +22,7 @@ A full-stack web application that helps underprivileged students discover and ap
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB 
 - **Frontend**: HTML, CSS , JAVASCRIPT
+- Deployment: Render
 
 ## ⚙️ Setup Instructions
 
@@ -32,5 +33,9 @@ A full-stack web application that helps underprivileged students discover and ap
 ### Contact
 - Meghana Arthimalla
 - Email:arthimalla.meghana@gmail.com
+  
+## 🌐 Live Demo
+
+🔗 [Click here to view the deployed site](https://scholarship-finder-for-underprivileged.onrender.com)
 
 
