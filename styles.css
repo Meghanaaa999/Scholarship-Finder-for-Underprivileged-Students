@@ -1,0 +1,213 @@
+/* =============================
+   Base Reset & Global Styles
+============================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('Happy Graduation.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+  position: relative;
+  z-index: 0;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.4); /* dark overlay */
+  z-index: -1;
+}
+
+/* =============================
+   Navigation
+============================= */
+nav {
+  background-color: rgba(204, 227, 255, 0.9);
+  padding: 18px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  justify-content: center;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  color: #24305e;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+  background: linear-gradient(to right, #a2d2ff, #cdb4db);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav a:hover {
+  background: linear-gradient(to right, #b5ead7, #fdffb6);
+  color: #222;
+}
+
+/* =============================
+   Headings
+============================= */
+h1, h2 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 25px;
+  font-weight: 700;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+}
+
+/* =============================
+   Forms
+============================= */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  background: rgba(255, 240, 245, 0.92); /* semi-transparent pink */
+  padding: 35px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(100, 100, 100, 0.2);
+}
+
+label {
+  display: block;
+  margin: 20px 0 8px;
+  font-weight: 600;
+  color: #222;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+input[type="url"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #fefefe;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  margin-top: 25px;
+  background: linear-gradient(to right, #90e0ef, #00b4d8);
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(to right, #48cae4, #0096c7);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* =============================
+   Search / Result Cards / Dashboard Boxes
+============================= */
+#results, #trackerList {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: rgba(227, 253, 253, 0.92); /* semi-transparent */
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+#results div, #trackerList div {
+  background-color: rgba(255, 255, 255, 0.95);
+  margin: 12px 0;
+  padding: 18px;
+  border-left: 6px solid #b5ead7;
+  border-radius: 6px;
+}
+
+/* =============================
+   Buttons & CTA Links
+============================= */
+a.btn, .btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 24px;
+  background-color: #caffbf;
+  color: #333;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+a.btn:hover {
+  background-color: #b9fbc0;
+}
+
+/* =============================
+   Footer
+============================= */
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 18px;
+  background-color: rgba(248, 237, 235, 0.92);
+  border-radius: 10px;
+  font-size: 0.95rem;
+  color: #333;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* =============================
+   Responsive
+============================= */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  form {
+    width: 95%;
+  }
+
+  button, input, select, textarea {
+    font-size: 1rem;
+  }
+
+  nav a {
+    padding: 10px 14px;
+    font-size: 0.95rem;
+  }
+}
