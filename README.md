@@ -34,4 +34,8 @@ A full-stack web application that helps underprivileged students discover and ap
 - Meghana Arthimalla
 - Email:arthimalla.meghana@gmail.com
 
+## 🔗 Deployed Link
+- https://scholarship-finder-for-underprivileged.onrender.com
+
+
 
